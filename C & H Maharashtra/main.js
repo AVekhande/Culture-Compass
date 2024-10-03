@@ -4,12 +4,7 @@ import mongoose from 'mongoose';
 import path from 'path.js';
 import bcrypt from 'bcrypt';
 import User from './models/userSchema.js';
-import Driver from './models/driverSchema.js';
-import CabBooking from './models/CabBooking.js';
-import jwt from 'jsonwebtoken';
 import fs from 'fs'; 
-// const path = require('path');
-
 
 const app = express();
 
